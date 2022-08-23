@@ -49,3 +49,16 @@ h4 {
     -webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
+
+/* CSS for recipes links */
+
+.recipe--img {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.recipe--card {
+    display: flex;
+    flex-direction: row;
+}
