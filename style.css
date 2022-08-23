@@ -58,7 +58,28 @@ h4 {
     border-radius: 10px;
 }
 
-.recipe--card {
+.recipe--container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+.recipe--steps {
+    width: 450px;
+    border: black solid 1px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+.recipe--steps li {
+    line-height: 40px;
+}
+
+h2 {
+    padding-left: 15px;
+}
+
+.card {
+    width: 470px;
 }
