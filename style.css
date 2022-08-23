@@ -1,0 +1,47 @@
+html {
+    font-family: "freight-big-pro","Big Caslon","Times New Roman",Times,"Palatino",serif;
+}
+
+.wrapper {
+    min-width: 950px;
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+h1 {
+    padding-bottom: 10px;
+    font-size: 42px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe--name {
+    padding-top: 15px;
+    font-size: 21px;
+}
+
+.recipe--item {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+}
+
+.recipe--item img {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.recipe--item img:hover {
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
