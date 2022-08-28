@@ -2,6 +2,11 @@ html {
     font-family: "freight-big-pro","Big Caslon","Times New Roman",Times,"Palatino",serif;
 }
 
+body {
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
 .wrapper {
     min-width: 950px;
     max-width: 1270px;
@@ -10,6 +15,7 @@ html {
 
 h1 {
     font-size: 42px;
+    color: rgb(49, 22, 9);
 }
 
 h4 {
@@ -64,6 +70,10 @@ h4 {
     justify-content: center;
 }
 
+.recipe--description {
+    max-width: 790px;
+}
+
 .recipe--steps {
     width: 450px;
     border: black solid 1px;
@@ -78,6 +88,7 @@ h4 {
 
 h2 {
     padding-left: 15px;
+    color: rgb(49, 22, 9);
 }
 
 .card {
